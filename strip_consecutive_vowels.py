@@ -1,4 +1,7 @@
-#import string
+#deletes consecutive vowels in the string and returns the string in the same order
+#input:great part of life is eating eel
+#output:gret part of life is eting el
+
 n=input()
 n=n.lower()
 n=n+" "
