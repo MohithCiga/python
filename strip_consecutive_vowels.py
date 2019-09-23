@@ -4,7 +4,7 @@
 
 n=input()
 n=n.lower()
-n=n+" "
+n=n+" "     #to prevent the index out of bound error in the while loop below
 for i in range(len(n)):
     if n[i] in 'aeiou':
         while True and i!=(len(n)-2):
